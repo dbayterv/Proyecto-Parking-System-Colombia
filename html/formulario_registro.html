@@ -5,13 +5,21 @@
         <meta charset="utf-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=7">
-        <link rel="stylesheet" href="/Css/diseño.css">
+        <link rel="stylesheet" href="/css/formulario_registro.css">
+        <script src="/js/formulario_registroDOM.js"></script>
+        
     </head>
     <body>
         <section class="form-reg">
         <br>
-        <h1>FORMULARIO DE REGISTRO</h1>
-        <br> <br>
+            <h1 id="titulo">FORMULARIO DE REGISTRO</h1>
+            <div>
+                <button onclick="cambiar_color('blue')" >Azul</button>
+                <button onclick="cambiar_color('red')" >Rojo</button>
+            </div>
+       <br>
+        <h3>Parking System Colombia</h3>
+        <br>
         <form>
             <label for="name">Nombre:</label><br>
             <input class="controls" type="text" name="name" id="name" placeholder="Registre tu nombre"><br>
@@ -32,8 +40,9 @@
             <label for="city">Ciudad:</label><br>
             <input class="controls" type="text" name="city" id="city" placeholder="Registre tu lugar de residencia"><br>
             <label for="address">Dirección:</label><br>
-            <input class="controls" type="text" name="address" id="address" placeholder="Registre tu dirección"><br>
-            <br><br><br>
+            <input class="controls" type="text" name="address" id="address" placeholder="Registre tu dirección">
+            <br>
+            <br>
           
 
             <label for="user">Usuario:</label><br>
